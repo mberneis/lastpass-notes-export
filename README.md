@@ -1,5 +1,5 @@
 # lastpass-notes-export
-Utility to export Lastpass Secure Notes
+Utility to export Lastpass Secure Notes to Bitwarden
 
 ## Usage (tested with Chrome)
 Goto LastPass Menu:
@@ -8,7 +8,7 @@ Goto LastPass Menu:
 In Chrome: 
 `File -> Save Page As -> (Format: WebPage Complete)`  in code directory (will be excluded by `.gitignore`)
 
-Run `php export.php` -> will reae `Print.htm` and generate `Print.csv`
+Run `php export.php` -> will read `Print.htm` and generate `Print.csv`
 
 Use `Print.csv` with the import format `Bitwarden (csv)` to import the secure notes into Bitwarden
 
